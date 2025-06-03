@@ -27,14 +27,14 @@ Seu objetivo é facilitar a gestão documental por meio de uma interface intuiti
 
 ## 🚀 Instalação
 
-1. Clone o repositório:
+#### 1. Clone o repositório:
 
 ```bash
 git clone https://github.com/SEU_USUARIO/docjur.git
 cd docjur
 ```
 
-2. Crie e ative o ambiente virtual:
+#### 2. Crie e ative o ambiente virtual:
 
 - python -m venv venv (Linux/Mac)
 - source venv/bin/activate (Linux/Mac)
@@ -42,11 +42,11 @@ cd docjur
 - python -m venv venv (Windows)
 - venv\Scripts\activate (Windows)
 
-3. Instale as dependências:
+#### 3. Instale as dependências:
 
 - pip install -r requirements.txt
 
-4. Execute a aplicação:
+#### 4. Execute a aplicação:
 
 - python app.py
 
