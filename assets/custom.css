@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body, html, .dash-table-container, .dash-table {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; /* Garantindo o bold */
+    font-size: 12px;
+}
+
+/* Ajusta o tamanho da fonte nos campos de data */
+.custom-date-picker .DateInput_input {
+    font-size: 12px !important; /* Diminui o tamanho da fonte */
+    padding: 5px !important; /* Ajusta o padding interno */
+}
+
+.Select-menu-outer, .Select-option {
+    color: black !important; /* Define a cor da fonte dos itens da lista */
+    background-color: white !important; /* Define o fundo branco */
+}
+
+.Select-menu-outer {
+    border: 1px solid #ccc; /* Define a borda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+}
+
+/* Ajusta a largura e altura do campo do DatePickerSingle */
+.custom-date-picker .DateInput_input {
+    width: 120px !important;
+    height: 36px !important;
+    box-sizing: border-box; /* garante que padding e borda sejam contados dentro da largura */
+}
+
+/* Ajusta o tamanho da imagem na coluna Link e centraliza */
+.dash-table-container td img {
+    width: 35px !important; /* Largura desejada */
+    height: 35px !important; /* Altura desejada */
+    display: block; /* Garante que a imagem se comporte como bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Centraliza o conteúdo dentro das células da tabela */
+.dash-table-container td {
+    text-align: center; /* Centraliza horizontalmente */
+    vertical-align: middle; /* Centraliza verticalmente */
+}
+
+
+/* xxxxxxxxxxx   Painel de Detalhes  xxxxxxxxxx */
+
+.dash-table-container .dash-cell.focused {
+    background-color: #f0f0f0 !important; /* Cor ao selecionar */
+}
+
+.dash-table-container .dash-row:hover {
+    background-color: #e6f7ff !important; /* Cor ao passar o mouse */
+    cursor: pointer; /* Altera o cursor para indicar interatividade */
+}
+
+
+.dash-table-container .dash-data-table tbody tr:hover {
+    background-color: #FFD580 !important; /* Cor de fundo ao passar o mouse */
+    cursor: pointer; /* Cursor indicando clicável */
+}

@@ -1,0 +1,8 @@
+services:
+  app:
+    image: 'docjur:latest'
+    build:
+      context: .
+    container_name: docjur
+    ports:
+      - 8050:8050
