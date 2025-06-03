@@ -36,11 +36,11 @@ cd docjur
 
 2. Crie e ative o ambiente virtual:
 
-# Linux/Mac
+### Linux/Mac
 - python -m venv venv
 - source venv/bin/activate
 
-# Windows
+### Windows
 - python -m venv venv
 - venv\Scripts\activate
 
