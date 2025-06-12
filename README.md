@@ -30,7 +30,7 @@ Seu objetivo é facilitar a gestão documental por meio de uma interface intuiti
 #### 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/docjur.git
+git clone https://github.com/paesdj1987/docjur.git
 cd docjur
 ```
 
